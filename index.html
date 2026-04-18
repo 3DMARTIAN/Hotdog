@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Hotdog Engine</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>🌭 Hotdog Builder</h1>
+
+  <div class="container">
+    <label for="bun">Choose Bun:</label>
+    <select id="bun">
+      <option value="soft">Soft</option>
+      <option value="toasted">Toasted</option>
+    </select>
+
+```
+<label for="sausage">Choose Sausage:</label>
+<select id="sausage">
+  <option value="beef">Beef</option>
+  <option value="chicken">Chicken</option>
+  <option value="vegan">Vegan</option>
+</select>
+
+<h3>Toppings</h3>
+<div id="toppings">
+  <label><input type="checkbox" value="ketchup"> Ketchup</label>
+  <label><input type="checkbox" value="mustard"> Mustard</label>
+  <label><input type="checkbox" value="onion"> Onion</label>
+  <label><input type="checkbox" value="cheese"> Cheese</label>
+  <label><input type="checkbox" value="chili"> Chili</label>
+</div>
+
+<button onclick="buildHotdog()">Build Hotdog</button>
+```
+
+  </div>
+
+  <h2>Result</h2>
+  <pre id="output">No hotdog created yet.</pre>
+
+  <script src="app.js"></script>
+
+</body>
+</html>
