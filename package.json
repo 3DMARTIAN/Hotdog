@@ -1,0 +1,12 @@
+{
+"name": "hotdog-engine",
+"version": "1.0.0",
+"description": "Hotdog modeling system",
+"main": "server.js",
+"scripts": {
+"start": "node server.js",
+"test": "node test.js"
+},
+"author": "Hotdog Dev",
+"license": "MIT"
+}
