@@ -1,0 +1,11 @@
+{
+"availableToppings": [
+"ketchup",
+"mustard",
+"onion",
+"cheese",
+"chili"
+],
+"bunTypes": ["soft", "toasted"],
+"sausages": ["beef", "chicken", "vegan"]
+}
